@@ -63,6 +63,26 @@ body {
   );
 }
 
+/* CodingClub.in Signature 135deg Carbon Diagonal Hatching */
+.bg-carbon-hatch {
+  background: repeating-linear-gradient(
+    135deg,
+    #15171f 0px,
+    #15171f 6px,
+    #0b0d14 6px,
+    #0b0d14 12px
+  );
+}
+
+/* Blue Neon Glow for TEAM Title */
+.neon-blue-text {
+  color: #00F0FF;
+  text-shadow: 
+    0 0 10px rgba(0, 240, 255, 0.7),
+    0 0 25px rgba(0, 240, 255, 0.4),
+    0 0 50px rgba(56, 189, 248, 0.2);
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
